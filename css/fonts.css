@@ -1,0 +1,47 @@
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+			 url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "PTsans-regular";
+	src: url("../fonts/PT-Sans/PTsans.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "MuseoSans300";
+	src: url("../fonts/MuseoSans300/museosans-300-webfont.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "MuseoSans500";
+	src: url("../fonts/MuseoSans500/museosans-500-webfont.eot");
+	src: url("../fonts/MuseoSans500/museosans-500-webfont.svg");
+	src: url("../fonts/MuseoSans500/museosans-500-webfont.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/MuseoSans500/museosans-500-webfont.woff") format("woff"),
+			 url("../fonts/MuseoSans500/museosans-500-webfont.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "MuseoSans700";
+	src: url("../fonts/MuseoSans700/museosans-700-webfont.eot");
+	src: url("../fonts/MuseoSans700/museosans-700-webfont.svg");
+	src: url("../fonts/MuseoSans700/museosans-700-webfont.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/MuseoSans700/museosans-700-webfont.woff") format("woff"),
+			 url("../fonts/MuseoSans700/museosans-700-webfont.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "intro";
+	src: url("../fonts/intro/Intro.otf");
+	font-style: normal;
+	font-weight: normal;
+}
