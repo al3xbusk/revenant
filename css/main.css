@@ -293,12 +293,19 @@ nav {
 /* right sidebar styles */
 .right-sidebar {
 	float: right;
+	background-color: #F7F8FA;
+	border-bottom: 2px solid #E6E6E6;
+	border-right: 2px solid #E6E6E6;
+	max-width: 280px;
+}
+.widget	{
+	padding: 10px;
 }
 /* ===================== */
 .main-posts {
-	margin: 15px;
 	border-bottom: 1px solid #ccc;
 	width: 600px;
+	margin: 25px 0;
 }
 .main-posts h4 {
 	font-family: "PTsans-regular";

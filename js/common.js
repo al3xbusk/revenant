@@ -114,4 +114,6 @@ $(document).ready(function() {
 
 $(".show-button").click(function() {
 		$(".login-form").slideToggle(300);
-	})
+})
+
+
