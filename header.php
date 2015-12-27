@@ -34,16 +34,21 @@
 		<div class="upper-header">
 			<div class="up-header-wrap">
 				<div class="log-reg">
-					<button class="separator">Latest News</button>
-					<button class="separator show-button">Login/logout</button>
-					<button class="separator">Register</button>
-					<button>About Us</button>
+					<a href="#"class="separator">Latest News</a>
+					<a href="#"class="separator show-button">Login/logout</a>
+					<a ></a>
+					<a href="#">About Us</a>
 				</div>
 				<div class="login-form">
 					<?php 
 						if (! is_user_logged_in())
 						{
 							wp_login_form(); 
+							?>
+							
+							<a href="<?php $register_url = wp_registration_url();echo $register_url; ?>">REGISTER</a>
+							<a href="<?php bloginfo('wpurl'); ?>/wp-login.php?action=lostpassword">FORGOT PASS?</a>
+						<?php
 						}
 						else
 						{
@@ -52,6 +57,7 @@
 					<?php
 						}
 					?>
+					
 				</div>
 				
 				<div class="contacts">
@@ -68,7 +74,7 @@
 			<h3>CREATIVE BUSINESS THEME FOR CORPORATIONS</h3>
 		</div>
 		<div class="registration-form">
-					<?php wp_create_user( $username, $password, $email ); ?> 		
+					
 		</div>
 	</header>
 	<nav>

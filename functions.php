@@ -116,12 +116,5 @@ function the_breadcrumb() {
 		echo $result;
 	}
 
-	function my_login_form() {
-		if ( ! is_user_logged_in() )
-		$link = '<a href="' . esc_url( wp_login_form() ) . '">' . __('Log in') . '</a>';
-		else
-		$link = '<a href="' . esc_url( wp_logout_url($redirect) ) . '">' . __('Log out') . '</a>';
-
-	}
-
+	
 ?>
