@@ -29,7 +29,7 @@ Template name: landing page
 	<div class="quote-wrap">
 		<div class="quote-text-container">
 				<h4>
-					Check our latest Wordpress Theme which implements a Page Bulder and a Revolution Slider
+					Check our latest Wordpress Theme which implements a Page Builder and a Revolution Slider
 				</h4>
 				<p>
 					Learn how to build Wordpress Themes with ease with a premium Page Builder which allows you to add new Pages in seconds.
