@@ -35,7 +35,6 @@ header {
 }
 
 .login-form {
-	display: none;
 	position: absolute;
 	background-color: #F7F8FA;
 	top: 30px;
@@ -44,6 +43,7 @@ header {
 	border: 1px solid #D9D9D9;
 	padding: 10px;
 	right: 180px;
+	display: none;
 }
 #loginform p {
 	font-family: "MuseoSans300";
@@ -293,9 +293,6 @@ nav {
 /* right sidebar styles */
 .right-sidebar {
 	float: right;
-	position: absolute;
-	right: 15px;
-	top: 15px;
 }
 /* ===================== */
 .main-posts {
@@ -343,7 +340,7 @@ nav {
 	font-size: 16px;
 	font-weight: normal;
 }
-.main-post-content p {
+.main-post-content p, .main-post-content li a, .tagcloud a {
 	font-family: "MuseoSans500";
 	font-size: 17px;
 	color: #6B6B71;

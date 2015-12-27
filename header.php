@@ -36,7 +36,7 @@
 				<div class="log-reg">
 					<a href="#"class="separator">Latest News</a>
 					<a href="#"class="separator show-button">Login/logout</a>
-					<a ></a>
+					<a></a>
 					<a href="#">About Us</a>
 				</div>
 				<div class="login-form">

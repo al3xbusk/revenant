@@ -68,7 +68,7 @@ function the_breadcrumb() {
 			'name' => 'Right sidebar',
 			'before_widget' => '<div class="widget">',
 			'before_title' => '<h2 class="sidebar-header">',
-			'after_title' => '</h2><div class="text">',
+			'after_title' => '</h2><div class="main-post-content">',
 			'after_widget' => '</div></div>'
 			));
 
@@ -82,6 +82,14 @@ function the_breadcrumb() {
 
 		register_sidebar(array(
 			'name' => 'Footer sidebar for search',
+			'before_widget' => '',
+			'before_title' => '',
+			'after_title' => '',
+			'after_widget' => ''
+			));
+		register_sidebar(array(
+			'name' => 'Landing page widget',
+			'description' => 'Only for testimonials on landing page',
 			'before_widget' => '',
 			'before_title' => '',
 			'after_title' => '',
@@ -116,5 +124,5 @@ function the_breadcrumb() {
 		echo $result;
 	}
 
-	
+		
 ?>

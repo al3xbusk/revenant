@@ -20,6 +20,9 @@
 	</div>
 
 	<div class="quote-wrap">
+		<?php
+				get_sidebar();
+			?>
 		<?php if (have_posts()) : ?>
 			<?php while (have_posts()) : the_post(); ?>
 				<div class="main-posts">

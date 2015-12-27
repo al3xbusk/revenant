@@ -97,9 +97,7 @@ $(document).ready(function() {
 	$(".list-slide-button6").click(function() {
 		$(".list-slide-item6").slideToggle();
 	});
-	$(".show-button").click(function() {
-		$(".login-form").slideToggle(300);
-	})
+	
 	// carousel start
 
 	var owl = $(".owl-carousel");
@@ -114,4 +112,6 @@ $(document).ready(function() {
 
 });
 
-
+$(".show-button").click(function() {
+		$(".login-form").slideToggle(300);
+	})
