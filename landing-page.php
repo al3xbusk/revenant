@@ -204,8 +204,8 @@ Template name: landing page
 			<div class="faq-list">
 				<div class="faq-wrap">
 					<div class="list-slide-container">
-						<div class="list-slide-button">
-							<button><img id="img1" src="http://theme-t/wp-content/themes/theme-test/img/faq-plus-icon.png" alt="">
+						<div class="list-slide-button" onclick="show('0')">
+							<button><img class="img1" src="http://theme-t/wp-content/themes/theme-test/img/faq-plus-icon.png" alt="">
 							</button>
 							<h6>How to add icons to Button</h6>
 						</div>
@@ -214,8 +214,8 @@ Template name: landing page
 						</div>
 					</div>
 					<div class="list-slide-container">
-						<div class="list-slide-button">
-							<button><img id="img1" src="http://theme-t/wp-content/themes/theme-test/img/faq-plus-icon.png" alt="">
+						<div class="list-slide-button" onclick="show('1')">
+							<button><img class="img1" src="http://theme-t/wp-content/themes/theme-test/img/faq-plus-icon.png" alt="">
 							</button>
 							<h6>How to add icons to Button</h6>
 						</div>
@@ -224,8 +224,8 @@ Template name: landing page
 						</div>
 					</div>
 					<div class="list-slide-container">
-						<div class="list-slide-button">
-							<button><img id="img1" src="http://theme-t/wp-content/themes/theme-test/img/faq-plus-icon.png" alt="">
+						<div class="list-slide-button" onclick="show('2')">
+							<button><img class="img1" src="http://theme-t/wp-content/themes/theme-test/img/faq-plus-icon.png" alt="">
 							</button>
 							<h6>How to add icons to Button</h6>
 						</div>
@@ -234,8 +234,8 @@ Template name: landing page
 						</div>
 					</div>
 					<div class="list-slide-container">
-						<div class="list-slide-button">
-							<button><img id="img1" src="http://theme-t/wp-content/themes/theme-test/img/faq-plus-icon.png" alt="">
+						<div class="list-slide-button" onclick="show('3')">
+							<button><img class="img1" src="http://theme-t/wp-content/themes/theme-test/img/faq-plus-icon.png" alt="">
 							</button>
 							<h6>How to add icons to Button</h6>
 						</div>

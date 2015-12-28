@@ -5,15 +5,16 @@ $(document).ready(function() {
 		$(this).parent().children(".list-slide-container .list-slide-item").slideToggle();
 	});
 	
-	var button2 = document.getElementById('list-slide-button2');
-	var item2 = document.getElementById('list-slide-item2');
-	var img2 = document.getElementById('img2');
-	button2.onclick = function changeatr() {
-		img2.src = "http://theme-t/wp-content/themes/theme-test/img/faq-minus-icon.png";
-		if (item2.style.display == "block"){
-			img2.src = "http://theme-t/wp-content/themes/theme-test/img/faq-plus-icon.png";
+	var button = document.getElementsByClassName("list-slide-button");
+	var item = document.getElementsByClassName("list-slide-item");
+	var img = document.getElementsByClassName('img1');
+	window.show = function(state) {
+		img[state].src = "http://theme-t/wp-content/themes/theme-test/img/faq-minus-icon.png";
+		if (item[state].style.display == "block"){
+			img[state].src = "http://theme-t/wp-content/themes/theme-test/img/faq-plus-icon.png";
 		}
-	}
+	};
+
 	$(".slide-button").click(function() {
 		$(".slide-this").slideToggle();
 	});
