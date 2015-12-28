@@ -28,13 +28,13 @@ Template name: landing page
 
 	<div class="quote-wrap">
 		<div class="quote-text-container">
-				<h4>
-					Check our latest Wordpress Theme which implements a Page Builder and a Revolution Slider
-				</h4>
-				<p>
-					Learn how to build Wordpress Themes with ease with a premium Page Builder which allows you to add new Pages in seconds.
-				</p>
-			</div>
+			<h4>
+				Check our latest Wordpress Theme which implements a Page Builder and a Revolution Slider
+			</h4>
+			<p>
+				Learn how to build Wordpress Themes with ease with a premium Page Builder which allows you to add new Pages in seconds.
+			</p>
+		</div>
 	</div>
 </section>
 <section class="featured-circles">
@@ -202,53 +202,48 @@ Template name: landing page
 				<h3>FREQUENTLY ASKED QUESTIONS</h3>
 			</div>
 			<div class="faq-list">
-				<ul>
-					<li class="list-slide-button1" id="list-slide-button1">
-						<button><img id="img1" src="http://theme-t/wp-content/themes/theme-test/img/faq-plus-icon.png" alt="">
-						</button>
-						<h6>How to add icons to Button</h6>
-					</li>
-					<div class="list-slide-item1" id="list-slide-item1">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, harum. Maiores ut atque, in doloribus porro molestias sequi incidunt quae? Minus cumque, voluptatum temporibus maxime perferendis vel tempora rem laboriosam.
+				<div class="faq-wrap">
+					<div class="list-slide-container">
+						<div class="list-slide-button">
+							<button><img id="img1" src="http://theme-t/wp-content/themes/theme-test/img/faq-plus-icon.png" alt="">
+							</button>
+							<h6>How to add icons to Button</h6>
+						</div>
+						<div class="list-slide-item">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, harum. Maiores ut atque, in doloribus porro molestias sequi incidunt quae? Minus cumque, voluptatum temporibus maxime perferendis vel tempora rem laboriosam.
+						</div>
 					</div>
-					<li class="list-slide-button2" id="list-slide-button2">
-						<button><img id="img2" src="http://theme-t/wp-content/themes/theme-test/img/faq-plus-icon.png" alt="">
-						</button>
-						<h6>How to delete event</h6>
-					</li>
-					<div class="list-slide-item2" id="list-slide-item2">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, harum. Maiores ut atque, in doloribus porro molestias sequi incidunt quae? Minus cumque, voluptatum temporibus maxime perferendis vel tempora rem laboriosam.
+					<div class="list-slide-container">
+						<div class="list-slide-button">
+							<button><img id="img1" src="http://theme-t/wp-content/themes/theme-test/img/faq-plus-icon.png" alt="">
+							</button>
+							<h6>How to add icons to Button</h6>
+						</div>
+						<div class="list-slide-item">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, harum. Maiores ut atque, in doloribus porro molestias sequi incidunt quae? Minus cumque, voluptatum temporibus maxime perferendis vel tempora rem laboriosam.
+						</div>
 					</div>
-					<li class="list-slide-button3" id="list-slide-button3">
-						<button><img id="img3" src="http://theme-t/wp-content/themes/theme-test/img/faq-plus-icon.png" alt="">
-						</button>
-						<h6>How to install Wordpress</h6>
-					</li>
-					<div class="list-slide-item3" id="list-slide-item3">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, harum. Maiores ut atque, in doloribus porro molestias sequi incidunt quae? Minus cumque, voluptatum temporibus maxime perferendis vel tempora rem laboriosam.
+					<div class="list-slide-container">
+						<div class="list-slide-button">
+							<button><img id="img1" src="http://theme-t/wp-content/themes/theme-test/img/faq-plus-icon.png" alt="">
+							</button>
+							<h6>How to add icons to Button</h6>
+						</div>
+						<div class="list-slide-item">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, harum. Maiores ut atque, in doloribus porro molestias sequi incidunt quae? Minus cumque, voluptatum temporibus maxime perferendis vel tempora rem laboriosam.
+						</div>
 					</div>
-					<li class="list-slide-button4" id="list-slide-button4">
-						<button><img id="img4" src="http://theme-t/wp-content/themes/theme-test/img/faq-plus-icon.png" alt=""></button>
-						<h6>How to create new FAQ</h6>
-					</li>
-					<div class="list-slide-item4" id="list-slide-item4">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, harum. Maiores ut atque, in doloribus porro molestias sequi incidunt quae? Minus cumque, voluptatum temporibus maxime perferendis vel tempora rem laboriosam.
+					<div class="list-slide-container">
+						<div class="list-slide-button">
+							<button><img id="img1" src="http://theme-t/wp-content/themes/theme-test/img/faq-plus-icon.png" alt="">
+							</button>
+							<h6>How to add icons to Button</h6>
+						</div>
+						<div class="list-slide-item">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, harum. Maiores ut atque, in doloribus porro molestias sequi incidunt quae? Minus cumque, voluptatum temporibus maxime perferendis vel tempora rem laboriosam.
+						</div>
 					</div>
-					<li class="list-slide-button5" id="list-slide-button5">
-						<button><img id="img5" src="http://theme-t/wp-content/themes/theme-test/img/faq-plus-icon.png" alt=""></button>
-						<h6>How to install the demo Content?</h6>
-					</li>
-					<div class="list-slide-item5" id="list-slide-item5">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, harum. Maiores ut atque, in doloribus porro molestias sequi incidunt quae? Minus cumque, voluptatum temporibus maxime perferendis vel tempora rem laboriosam.
-					</div>
-					<li class="list-slide-button6" id="list-slide-button6">
-						<button><img id="img6" src="http://theme-t/wp-content/themes/theme-test/img/faq-plus-icon.png" alt=""></button>
-						<h6>Can the Theme be translated?</h6>
-					</li>
-					<div class="list-slide-item6" id="list-slide-item6">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, harum. Maiores ut atque, in doloribus porro molestias sequi incidunt quae? Minus cumque, voluptatum temporibus maxime perferendis vel tempora rem laboriosam.
-					</div>
-				</ul>
+				</div>
 			</div>
 		</div>
 	</div>

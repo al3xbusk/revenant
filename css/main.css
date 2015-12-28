@@ -685,12 +685,12 @@ i, cite, em, var, address, dfn {
 	margin: 40px 0 0;
 
 }
-.faq-list ul {
+.faq-wrap {
 	margin: 0;
 	padding: 0;
 	width: 500px;
 }
-.faq-list ul li {
+.list-slide-button {
 	width: 500px;
 	border: 1px solid #eeeeee;
 	background-color: #fff;
@@ -700,7 +700,7 @@ i, cite, em, var, address, dfn {
 	cursor: pointer;
 	margin: 0 0 6px;
 }
-.faq-list ul div {
+.list-slide-item {
 	font-family: "PTsans-regular";
 	color: #2a2b2c;
 	width: 400px;
@@ -711,7 +711,7 @@ i, cite, em, var, address, dfn {
 	background-color: #fff;
 	display: none;
 }
-.faq-list ul li button {
+.list-slide-button button {
 	border:none;
 	background-color:inherit;
 	width:40px;
@@ -722,7 +722,7 @@ i, cite, em, var, address, dfn {
 	right:9px;
 	outline:none;
 }
-.faq-list ul li h6 {
+.list-slide-button h6 {
 	font-family: "PTsans-regular";
 	color: #2a2b2c;
 	font-weight: bold;
@@ -1034,11 +1034,11 @@ i, cite, em, var, address, dfn {
 /* widget recent posts styles */
 
 
-.rpwe-title a {	font-family: "PTsans-regular";	font-size: 16px;	font-weight: normal;	margin: 15px 0;padding: 0px;}
-.rpwe-title {	padding: 15px;}
-.rpwe-title h3 { float: right;		margin: 0;		line-height: 0.8;	}
-.rpwe-title a {		color: black;}
-.rpwe-li {		height: 60px;		position: relative;		width: 230px;		margin: 10px 0;		background-color: #fff;	}
+.rpwe-title a {font-family: "PTsans-regular";	font-size: 16px;	font-weight: normal;	margin: 15px 0;padding: 0px;}
+.rpwe-title {padding: 15px;}
+.rpwe-title h3 {float: right;		margin: 0;		line-height: 0.8;	}
+.rpwe-title a {color: black;}
+.rpwe-li {height: 60px;	 position: relative;		width: 230px;		margin: 10px 0;		background-color: #fff;	}
 .rpwe-img img, .post-image img {		height: 70px;		width: 70px;		border-radius: 5px;		position: relative;		bottom: 6px;	}
 
 /* ================================== */
